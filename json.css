@@ -1,0 +1,32 @@
+body {
+    display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-rows:2fr 2fr 2fr;
+grid-template-areas:
+". card card ."
+". . . ."
+". . . ."
+}
+.card {
+    grid-area:card;
+    background-color: rgb(0, 0, 0);
+    height: 28vh;
+    color: white;
+    display:block;
+    
+  }
+  .age {
+display:flex;
+justify-content: center;
+align-content: center;
+  }
+  .firstname {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .surname {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+  }
